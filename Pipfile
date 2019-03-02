@@ -14,6 +14,9 @@ cycler = "*"
 kiwisolver = "*"
 pyparsing = "*"
 jupyter = "*"
+ipython = "*"
+nbformat = "*"
+jupytext = "*"
 
 [requires]
 python_version = "3.7"
