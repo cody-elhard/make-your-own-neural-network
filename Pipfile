@@ -17,6 +17,9 @@ jupyter = "*"
 ipython = "*"
 nbformat = "*"
 jupytext = "*"
+jupyter-kernel-gateway = "*"
+tornado = "==5.1.1"
+scipy = "*"
 
 [requires]
 python_version = "3.7"
