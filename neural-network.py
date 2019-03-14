@@ -53,7 +53,7 @@ myNeuralNetwork = NeuralNetwork(input_nodes, hidden_nodes, output_nodes, learnin
 
 # myNeuralNetwork.query([1.0, 0.5, -1.5])
 
-training_data_file = open("./data/train_100.csv", 'r')
+training_data_file = open("./data/train_full_set.csv", 'r')
 training_data_list = training_data_file.readlines()
 training_data_file.close()
 
@@ -69,7 +69,7 @@ for e in range(epochs):
         pass
     pass
 
-test_data_file = open("./data/test_10.csv", 'r')
+test_data_file = open("./data/test_full_set.csv", 'r')
 test_data_list = test_data_file.readlines()
 test_data_file.close()
 
@@ -93,3 +93,5 @@ for record in test_data_list:
 
 scorecard_array = numpy.asarray(scorecard)
 print("Perfmance  = ", scorecard_array.sum() / scorecard_array.size)
+
+
